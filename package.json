@@ -1,0 +1,23 @@
+{
+  "name": "abmnode",
+  "version": "1.0.0",
+  "description": "abm",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/server/app.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:cov": "jest --coverage"
+  },
+  "author": "Lucas Salmerón",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.1"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4"
+  }
+}
